@@ -1,0 +1,70 @@
+
+.background{
+   background-color: #0e152f;
+}
+.home{
+    display: grid;
+    background-color: #0e152f;
+}
+.contBtnPlay{
+    background: -webkit-linear-gradient(top,#ffd54a 1%, #ff8800 99%); /* For Safari 5.1 to 6.0 */
+    position: absolute;
+    right: 170px;
+    bottom: 100px;
+    z-index: 1;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 4px;
+    box-shadow: 2px 2px 15px 0px black;
+    font-size: 3vw;
+    border: solid 1px black;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+.contBtnPlay:hover{
+    color: white;
+   zoom: 99.5%;
+}
+.contBtnSv{
+    background: rgba(0, 0, 0,0.9);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    top:220px;
+    width: 360px;
+    height: 65px;
+   z-index: 777;
+   position: absolute;
+   left: 38%;
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 20px;
+   color: #9acc10;
+   border: solid 1px #9acc10;
+}
+.contBtnSv:hover{
+    color:#9acc10;
+    background: rgba(0, 0, 0,2);
+   
+}
+.text-event{
+    font-family: 'Courier New';
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+
+.iconMas{
+    background-color: #9acc10;
+
+
+}
+@media only screen and (max-width: 890px){  
+    .contBtnSv{
+       display: none;
+    }
+    .contBtnPlay{
+      display: none;
+    
+    }
+ }
